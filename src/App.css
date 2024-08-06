@@ -1,0 +1,94 @@
+.carousel-image{
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.navbar-brand {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 28px !important;
+}
+
+.btn-custom{
+  background-color: black !important;
+  outline: none !important;
+  border: none !important;
+}
+
+@media (max-width: 320px) {
+  .btn-custom {
+    font-size: 15px !important;
+    padding: 5px !important;
+  }
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+.card-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.card-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+/* Testimonial.css */
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #1E90FF; /* Dodger Blue */
+}
+
+.testimonial-card {
+  background-color: #f8f9fa; /* Light background for testimonials */
+  border: none;
+}
+
+.testimonial-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #333; /* Darker color for text */
+  font-size: 16px;
+}
+
+.card-footer {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: #FF6347; /* Tomato color for footer */
+  background-color: #f8f9fa; /* Match background color of card */
+  border-top: none;
+}
+
+
+
+.footer {
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer p {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.sticky-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1020; 
+  background-color: #fff; 
+}
+
+
+
